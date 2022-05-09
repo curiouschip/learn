@@ -15,4 +15,4 @@ For users wanting to dabble in electronics, Pip has a Raspberry Pi compaible 40 
 
 Pip has been deigned with portability in mind and Pip's custom software allows you to creat games and apps with ease, using PyGame, Lua, PHP, and HTML, with more language support being added in future updates.
 
-Click on the **Getting Started** link to find out how to use your pip.
+Next, checkout [Getting Started](/docs/getting-started) to find out how to use your Pip.
