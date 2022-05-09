@@ -113,12 +113,12 @@ Pip needs a **MINIMUM** of 2 bars to boot up. If your charge is less than this, 
 
 ## Booting up
 
-To boot Pip, press and the **MIDDLE** button for at least 3 seconds until the lights display the boot sequence. After a few seconds, the splash screen will be displayed and Pip will then boot into PipOS. 
+To boot Pip, press and **HOLD** the **MIDDLE** button for at least 3 seconds until the lights display the boot sequence. After a few seconds, the splash screen will be displayed and Pip will then boot into PipOS. 
 
 {{< figure src="PipBoot.gif" >}}
 
 {{< hint info >}}
-Once booted, you navigate the apps using the touchscreen. If you have more than 8 apps installed, you can navigate between the screens by swiping left or right on the touchscreen. At this stage, you cannot use the controllers to select and load apps.
+Once booted, you can navigate the apps using the touchscreen. If you have more than 8 apps installed, you can navigate between the screens by swiping left or right on the touchscreen. At this stage, you cannot use the controllers to select and load apps.
 {{< /hint >}}
 
 ---
