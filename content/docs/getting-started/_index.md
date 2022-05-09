@@ -65,4 +65,8 @@ Pip ships with a MicroSD card already inserted, which boots into our custom soft
 
 {{< figure src="MicroSD.gif" >}}
 
+{{< hint danger >}}
+The MicroSD card slot is spring loaded. Do not pull the card out without ejecting it first.
+{{< /hint >}}
+
 
