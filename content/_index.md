@@ -3,44 +3,16 @@ title: Introduction
 type: docs
 ---
 
-# Welcome to Pip!
+# Meet Pip!
 
-Introduction goes here...
+Pip is here to introduce you to the world of coding and to make it fun & easy. Make games, invent your own apps, play retro classics or take control of objects around you!
 
----
+{{< figure src="PipIcon.png" >}}
 
+Pip has been designed using the  **Raspberry Pi 3 Compute Module** and features a built-in touchscreen, battery, camera and 8 programmable LEDs. Pip also features an accelerometer, speaker, microphone, headphone jack, HDMI out, 2 x USB-A ports and WiFi.
 
-{{< columns >}}
-## Astris ipse furtiva
+For users wanting to dabble in electronics, Pip has a Raspberry Pi compaible 40 pin header, allowing you to use many of the Raspberry Pi HATs available on the market.
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+Pip has been deigned with portability in mind and Pip's custom software allows you to creat games and apps with ease, using PyGame, LUA and HTML, with more language support being added in future updates.
 
-<--->
-
-## Suis quot vota
-
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
-{{< /columns >}}
-
-
-## Tempora nisi nunc
-
-Lorem **markdownum** emicat gestu. Cannis sol pressit ducta. **Est** Idaei,
-tremens ausim se tutaeque, illi ulnis hausit, sed, lumina cutem. Quae avis
-sequens!
-
-    var panel = ram_design;
-    if (backup + system) {
-        file.readPoint = network_native;
-        sidebar_engine_device(cell_tftp_raster,
-                dual_login_paper.adf_vci.application_reader_design(
-                graphicsNvramCdma, lpi_footer_snmp, integer_model));
-    }
-
-## Locis suis novi cum suoque decidit eadem
-
-Idmoniae ripis, at aves, ali missa adest, ut _et autem_, et ab?
+Click on the **Getting Started** link to find out how to use your pip.

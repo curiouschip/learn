@@ -6,13 +6,35 @@ title: "Getting Started"
 
 # Getting Started
 
-{{< figure src="linux.jpg" >}}
+Pip overview:
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+{{< figure src="MeetPip.png" >}}
 
-{{< youtube 7E6qR-1ASMA >}}
+## Controllers
+
+Pip's USB controllers are easy to attach and connect to Pip through the USB connectors on either side. 
+
+---
+{{< columns >}}
+
+![Image Alt Text](Controller1.png)
+
+<--->
+### Connecting Controllers
+Simply guide in from the side to connect to USB ports. This may sound a bit silly, but it is possible to insert them into the wrong side, so make sure the directional controller is inserted to the left of the touchscreen and buttons to the right.
+
+{{< /columns >}}
+
+---
+
+{{< columns >}}
+
+![Image Alt Text](Controller2.png)
+
+<--->
+### Removing Controllers
+Before sliding each controller from the base unit, gently lift the rear edge of the controller to release the unit. You are best doing this one controller at a time, unless you have a third hand to catch Pip, which you probably don’t.
+
+{{< /columns >}}
+
+
