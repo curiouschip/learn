@@ -11,8 +11,8 @@ Pip is here to introduce you to the world of coding and to make it fun & easy. M
 
 Pip has been designed using the  **Raspberry Pi 3 Compute Module** and features a built-in touchscreen, battery, camera and 8 programmable LEDs. Pip also features an accelerometer, speaker, microphone, headphone jack, HDMI out, 2 x USB-A ports and WiFi.
 
-For users wanting to dabble in electronics, Pip has a Raspberry Pi compaible 40 pin header, allowing you to use many of the Raspberry Pi HATs available on the market.
+For users wanting to dabble in electronics, Pip has a Raspberry Pi compatible 40 pin header, allowing you to use many of the Raspberry Pi HATs available on the market.
 
-Pip has been deigned with portability in mind and Pip's custom software allows you to creat games and apps with ease, using PyGame, Lua, PHP, and HTML, with more language support being added in future updates.
+Pip has been designed with portability in mind and Pip's custom software allows you to create games and apps with ease, using PyGame, Lua, PHP, and HTML, with more language support being added in future updates.
 
 Next, checkout [Getting Started](/docs/getting-started) to find out how to use your Pip.

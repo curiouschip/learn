@@ -8,9 +8,24 @@ title: "Getting Started"
 
 ---
 
-Pip overview:
+## Pip overview:
 
 {{< figure src="MeetPip.png" >}}
+
+---
+
+## MicroSD Card
+
+Pip ships with a MicroSD card already inserted, which boots into our custom software. You can run RetroPie or Raspbian on Pip (some tweaks may be required and there are links to these files in the downloads section).
+
+{{< figure src="MicroSD.gif" >}}
+
+{{< hint warning >}}
+The MicroSD card slot is spring loaded. Do not pull the card out without ejecting it first.
+{{< /hint >}}
+{{< hint danger >}}
+You must NEVER eject the MicroSD card whilst Pip is running. Doing so may corrupt the data on your card, rendering it unusable.
+{{< /hint >}}
 
 ---
 
@@ -25,7 +40,7 @@ Pip's USB controllers are easy to attach and connect to Pip through the USB conn
 
 <--->
 ### Connecting Controllers
-Simply guide in from the side to connect to USB ports until you feel them lock in place. There are grooves on the back of Pip that help guide in the controllers
+Simply guide in from the side to connect to the USB ports until you feel the controllers lock in place. There are grooves on the back of Pip that help guide in the controllers.
 
 
 {{< /columns >}}
@@ -53,20 +68,37 @@ Before sliding each controller from the base unit, gently lift the rear edge of 
 
 <--->
 ### Third Party Controllers
-Any USB controller can be used with Pip. Controllers can be attached to the USB connectors on either side and if more than 2 controllers are required, you can attach a USB hub to Pip and play multi-player games.
+Any USB controller can be used with Pip. Controllers can be attached to the USB connectors on either side and if more than 2 controllers are required, you can attach a USB hub to Pip to play multi-player games.
 
 {{< /columns >}}
 
+
 ---
 
-## MicroSD Card
+## Buttons
 
-Pip ships with a MicroSD card already inserted, which boots into our custom software. You can run RetroPie or Raspbian on Pip (some tweaks may be required and there are links in the downloads section).
+Pip's controller buttons are similar to those normally found on other games controllers. When coding your own apps or games, these buttons can be programmed to do whatever you choose.
 
-{{< figure src="MicroSD.gif" >}}
+{{< figure src="Buttons2.png" >}}
 
-{{< hint danger >}}
-The MicroSD card slot is spring loaded. Do not pull the card out without ejecting it first.
+{{< hint info >}}
+When both controllers are attached to Pip, they are merged together and seen by Pip as a single controller. 
 {{< /hint >}}
 
+There are 3 buttons on Pip itself that are used for a variety of functions:
+{{< figure src="Buttons1.png" >}}
+
+The **MIDDLE** button is used for powering up, battery indication, selecting volume and brightness settings, quitting apps and for shutting down. Further details on these functions are given further down this page.
+
+The **UP** and **DOWN** shoulder buttons are used to adjust screen brightness and volume, however can be used in your own apps or games to provide other functions. When Pip's game controllers are connected, these buttons become part of the gamepad.
+
+
+---
+
+
+## Battery check and charging
+
+Pip's built-in LEDs are used to indicate how much battery charge is remaining. A **QUICK TAP** of the middle button will show you the charge level of the battery. When the MicroUSB cable is plugged in and Pip is charging, a tap of the middle button shows an animated sequence to confirm that the battery is charging and the charge level it has reached.
+
+{{< figure src="Charging.gif" >}}
 
