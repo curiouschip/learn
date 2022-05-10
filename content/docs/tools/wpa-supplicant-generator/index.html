@@ -1,0 +1,72 @@
+---
+title: WiFi Config Generator
+---
+
+<h1>wpa_supplicant.conf Generator</h1>
+
+<p>
+  Use this tool to generate a configuration file that contains the
+  WiFi details for your local network(s). Enter your network name/password in the boxes
+  below - using the Add Network button to add as many networks as required - then
+  click Generate to view the resultant config file. Save this file to the boot partition
+  of Pip's SD card with the filename <kbd>wpa_supplicant.conf</kbd>, then start Pip -
+  the new WiFi configuration will be automatically detected and installed.
+</p>
+
+<ol id='network-list'>
+  <li>
+    <input type='text' name='network' placeholder='Network'>
+    <input type='text' name='password' placeholder='Password'>
+  </li>
+</ol>
+
+<button name='add'>Add Network</button>
+<button name='generate'>Generate</button>
+
+<div id='output' style='display:none'>
+  <pre><code></code></pre>
+  <p>
+    <a id='download' download='wpa_supplicant.conf'>Click here to download</a>.
+  </p>
+</div>
+
+<script type='text/javascript'>
+document.addEventListener('DOMContentLoaded', () => {
+
+  const list = document.querySelector('#network-list');
+  const templateRow = list.querySelector('li').cloneNode(true);
+  const code = document.querySelector('#output');
+  const download = document.querySelector('#download');
+
+  document.querySelector('button[name=add]').onclick = () => {
+    list.appendChild(templateRow.cloneNode(true));
+  };
+
+  document.querySelector('button[name=generate]').onclick = () => {
+    const src = [
+      "ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev",
+      "update_config=1",
+      "country=GB",
+      ""
+    ];
+
+    for (const child of list.children) {
+      const n = child.querySelector('input[name=network]').value.trim();
+      const p = child.querySelector('input[name=password]').value.trim();
+      if (n.length > 0 && p.length > 0) {
+        src.push("network={");
+        src.push("    ssid=\"" + n + "\"");
+        src.push("    psk=\"" + p + "\"");
+        src.push("}");
+        src.push("");
+      }
+    }
+
+    download.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(src.join("\n")));
+
+    code.querySelector('code').textContent = src.join("\n");
+    code.style.display = '';
+  };
+
+});
+</script>
