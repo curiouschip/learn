@@ -14,11 +14,11 @@ We are in the process of working on a **SETTINGS** app that will allow you to co
 
 ## Method 1 - Automatic file generator
 
-Pip's Wifi configuration is stored in a file called "wpa_supplicant.conf". Enter the name of your network and password into the boxes below and click on "Generate File".
+Pip's Wifi configuration is stored in a file called "wpa_supplicant.conf". To automatically generate this file, enter the name of your network and password into the boxes below and click "Generate File".
 
 ## Method 2 - Make your own file
 
-You can also make your own wpa_supplicant file using any text editor. Copy the code below into a new file and save it as "wpa_supplicant.cont".
+You can also make your own ***wpa_supplicant*** file using any text editor. Copy the code below into a new file and save it as "wpa_supplicant.conf".
 
 
 	country=us
@@ -36,15 +36,3 @@ You can also make your own wpa_supplicant file using any text editor. Copy the c
  	  ssid="WIFINAME2"
  	 psk="PASSWORD2"
 	}
-
-
-1. Remansit notam Stygia feroxque
-2. Et dabit materna
-3. Vipereas Phrygiaeque umbram sollicito cruore conlucere suus
-4. Quarum Elis corniger
-5. Nec ieiunia dixit
-
-Vertitur mos ortu ramosam contudit dumque; placabat ac lumen. Coniunx Amoris
-spatium poenamque cavernis Thebae Pleiadasque ponunt, rapiare cum quae parum
-nimium rima.
-
