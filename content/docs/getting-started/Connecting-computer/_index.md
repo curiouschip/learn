@@ -14,7 +14,7 @@ You can connect to Pip using any device that is equipped with a browser. Althoug
 
 ## Enter Pip's IP address
 
-In order to connect to Pip, both devices should be on the **same network**. Open a new browser window and enter Pip's IP address (shown on the top right corner of Pip's screen), adding the suffix **:8080**
+In order to connect to Pip, both devices should be on the **same network**. Open a new browser window and enter Pip's IP address (shown on the top left corner of Pip's screen), adding the suffix **:8080**
 
 {{< figure src="logon.gif" >}}
 
