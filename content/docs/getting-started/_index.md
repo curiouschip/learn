@@ -117,10 +117,6 @@ To boot Pip, press and **HOLD** the **MIDDLE** button for at least 3 seconds unt
 
 {{< figure src="PipBoot.gif" >}}
 
-{{< hint info >}}
-Once booted, you can navigate the apps using the touchscreen. If you have more than 8 apps installed, you can navigate between the screens by swiping left or right on the touchscreen. At this stage, you cannot use the controllers to select and load apps.
-{{< /hint >}}
-
 ---
 
 
@@ -131,3 +127,52 @@ To use the kickstand, put the tip of your finger into the hexagonal recess in th
 {{< figure src="Kickstand.png" >}}
 
 To close the kickstand, hold the bottom of the kickstand and push it back into the case until it locks into place.
+
+---
+
+
+## Adjusting Audio and Brightness
+
+The volume and screen brightness can be adjusted once Pip has booted up. Tapping the **MIDDLE** button cycles through the Battery Indicator, Volume and Screen Brightness settings. The settings are adjusted by tapping the **UP** and **DOWN** Shoulder buttons. 
+
+{{< figure src="Adjust.gif" >}}
+
+---
+
+
+## Navigating and Loading Apps
+
+You can navigate the installed apps using the touchscreen. If you have more than 8 apps installed, you can scroll between the screens by swiping left or right on the touchscreen. At this stage, you cannot use the controllers to select and load apps.
+
+{{< figure src="App.gif" >}}
+
+{{< hint info >}}
+To get back to the home screen, press and hold Pip's middle button for 2 seconds.
+{{< /hint >}}
+
+---
+
+
+## Shutting Down
+
+Shutting Pip down follows a similar procedure to booting up. Once you have exited apps to get to the home screen, hold down the **MIDDLE** button for 3 seconds to bring up the **SHUTDOWN MENU**. You then have the option to Shut Down, Reboot, or Cancel.
+{{< figure src="shutdown.gif" >}}
+
+{{< hint danger >}}
+Pip continues to safely shut down for a few seconds after the screen has turned off. If you need to remove Pip's MicroSD card, please wait at least 10 seconds after shutting Pip down to avoid data corruption.
+{{< /hint >}}
+
+---
+
+
+## Emergency Shutdown
+
+If Pip stops responding, you can perform an **EMERGENCY SHUTDOWN** procedure. Press down the **MIDDLE BUTTON** and **DOWN SHOULDER BUTTON** at the same time and hold them for at least 5 seconds until the screen turns off. You can then re-start Pip as normal.
+
+
+---
+
+
+## Next Steps
+
+Now that you are familiar with the basic operation of Pip, it's time to connect to your computer and start coding. 
