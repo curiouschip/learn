@@ -18,7 +18,7 @@ In order to connect to Pip, you must have already configured Pip's WiFi followin
 
 {{< figure src="browser2.png" >}}
 
-Open a new browser window and enter Pip's IP address (shown on the top left corner of Pip's screen), adding the suffix **:8080**
+Open a new browser window and enter Pip's IP address, adding the suffix **:8080**
 
 {{< figure src="logon.gif" >}}
 
