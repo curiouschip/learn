@@ -147,15 +147,15 @@ You can navigate the installed apps using the touchscreen. If you have more than
 {{< figure src="App.gif" >}}
 
 {{< hint info >}}
-To get back to the home screen, press and hold Pip's middle button for 2 seconds.
+To get back to the home screen, press and hold Pip's middle button for 1 second.
 {{< /hint >}}
 
 ---
 
 
-## Shutting Down
+## Rebooting or Shutting Down
 
-Shutting Pip down follows a similar procedure to booting up. Once you have exited apps to get to the home screen, hold down the **MIDDLE** button for 3 seconds to bring up the **POWER OPTIONS MENU**. You then have the option to Shut Down, Reboot, or Cancel.
+Shutting Pip down follows a similar procedure to booting up. Once you have exited apps to get to the home screen, hold down the **MIDDLE** button for 3 seconds to bring up the **POWER OPTIONS MENU**. You then have the option to reboot Pip, or turn Pip off.
 {{< figure src="shutdown.gif" >}}
 
 {{< hint danger >}}
