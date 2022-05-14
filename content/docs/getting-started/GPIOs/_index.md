@@ -1,10 +1,10 @@
 ---
-title: Configuring WiFi
-weight: 2
+title: GPIOs
+weight: 6
 bookToc: false
 ---
 
-# Configuring WiFi
+# Configuring Pip's WiFi settings
 
 ---
 

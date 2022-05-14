@@ -1,6 +1,6 @@
 ---
 title: Connecting to Pip
-weight: 2
+weight: 3
 bookToc: false
 ---
 
@@ -43,4 +43,4 @@ After successfully connecting to Pip, you need to enter the username and passwor
 
 Once logged on, you will have access to Pip's Home Screen. From this screen, you can edit existing apps and games, or create your own. Further guidance on creating your own apps is given in the **Project Types** section.
 
-{{< figure src="logon3.png" >}}
+{{< figure src="PipBrowser.png" >}}

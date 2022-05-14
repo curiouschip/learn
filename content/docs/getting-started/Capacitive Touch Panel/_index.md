@@ -1,10 +1,10 @@
 ---
-title: Configuring WiFi
-weight: 2
+title: Capacitive Touch Panel
+weight: 5
 bookToc: false
 ---
 
-# Configuring WiFi
+# Configuring Pip's WiFi settings
 
 ---
 
