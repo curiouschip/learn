@@ -1,6 +1,6 @@
 ---
 title: Connecting to Pip
-weight: 3
+weight: 6
 bookToc: false
 ---
 

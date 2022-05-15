@@ -1,6 +1,6 @@
 ---
 title: GPIOs
-weight: 6
+weight: 5
 bookToc: false
 ---
 

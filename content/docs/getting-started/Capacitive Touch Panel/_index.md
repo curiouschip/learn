@@ -1,6 +1,6 @@
 ---
 title: Capacitive Touch Panel
-weight: 5
+weight: 4
 bookToc: false
 ---
 
@@ -26,7 +26,7 @@ Conducting objects are defined as the materials or substances that allow electri
 
 ## Modes
 
-THe capacitive touch panel has 5 selectable modes, which are summarised below:
+The capacitive touch panel has 5 selectable modes, which are summarised below:
 
 SERIAL
 

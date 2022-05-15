@@ -1,6 +1,6 @@
 ---
 title: RetroPie
-weight: 4
+weight: 3
 bookToc: false
 ---
 
