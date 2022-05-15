@@ -27,7 +27,7 @@ The header provides 17 Pins that can be configured as inputs and outputs. By def
 {{< figure src="GPIO2.png" >}}
 
 {{< hint danger >}}
-Do not start connecting wires and sensors to these pins without properly understanding how they work. A short circuit or wiring mistake can permanently damage affected pins.
+Do not connect wires and sensors to these pins without properly understanding how they work. A short circuit or wiring mistake can permanently damage the pins.
 {{< /hint >}}
 
 
