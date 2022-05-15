@@ -90,6 +90,24 @@ ROMs are copyrighted content and as such are not included with RetroPie.
 
 ---
 
+## Playing Games
+
+To play installed games, select the emulator you wish to play by highlighting it and pressing the **A Button**. You will see a list of the games you installed.
+
+{{< figure src="konami.png" >}}
+
+Scroll down the list to highlight the game you wish to play and press the **A Button** again to load it.
+
+---
+
+## Exiting Games
+
+To exit the game and get back to the RetrPie menu, press and hold the **MIDDLE BUTTON** then press the **MAIN MENU** button on the controller.
+
+{{< figure src="RetroExit.png" >}}
+
+---
+
 ## Shutting Down
 
 To shut down Pip safely, press the **Main Menu** button on the controller to access the main menu. Select **QUIT** and follow the on screen prompts to shut down Pip.

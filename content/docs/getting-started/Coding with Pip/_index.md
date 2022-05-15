@@ -42,7 +42,7 @@ We are going to make some changes to the **Space Invaders** game, which is writt
 
 {{< figure src="editing3.png" >}}
 
-We are going to give this game a retro look by changing the background and the sprites. You can use your own sprites, or download the ones used in this example by **clicking here**. 
+We are going to give this game a retro look by changing the background and the sprites. You can use your own sprites, or download the ones used in this example by [**clicking here**](SpaceInvaders.zip). 
 
 The filenames have been kept the same to make this example easier to follow. 
 
