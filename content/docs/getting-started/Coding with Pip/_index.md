@@ -61,8 +61,8 @@ We are also going to change some further parameters in the game:
 {{< hint info >}}
 1. Change the **ALIEN_SHOOT_CHANCE** value to **0.05** (to increase the number of missiles fired by the aliens)
 2. Change the **ALIEN_SPEED** value to **240** (to make the aliens move faster)
-3. Change the **START_LIVES_** value to **8** (to double the amount of lives you start with)
-4. Change the **LIFE_COLOR_** value to **{40, 0, 40}** (to change the LED colours to purple)
+3. Change the **START_LIVES** value to **8** (to double the amount of lives you start with)
+4. Change the **LIFE_COLOR** value to **{40, 0, 40}** (to change the LED colours to purple)
 5. Change the **PLAYER_MISSILE_SPEED** value to 600 (to increase the speed your missiles fire at)
 {{< /hint >}}
 
