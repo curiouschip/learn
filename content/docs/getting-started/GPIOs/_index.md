@@ -4,50 +4,35 @@ weight: 6
 bookToc: false
 ---
 
-# Configuring Pip's WiFi settings
+# GPIOs
 
 ---
 
-## Manual Configuration
+## Introduction
 
-We are in the process of working on a **SETTINGS** app that will allow you to configure Pip's WiFi using the touchscreen. This will be part of a PipOS update. 
+Pip's 40 pin GPIO header allows a range of sensors, motors, LEDs and accessories to be connected to Pip.
 
-In the meantime, the WiFi settings must be configured manually, using either of the methods below.
+{{< figure src="GPIO1.png" >}}
 
-## Method 1 - Automatic file generator
+It is Raspberry Pi Compatible, meaning that the majority of Raspberry Pi HATs can be connected to Pip. 
 
-Pip's Wifi configuration is stored in a file called **wpa_supplicant.conf**, which can be automatically generated using our [wpa_supplicant.conf Generator](/docs/tools/wpa_supplicant).
+---
 
-{{< hint info >}}
-1. Safely remove Pip's MicroSD card and insert it into your computer/laptop using a suitable adapter.
-2. Enter your network name/password in [wpa_supplicant.conf Generator](/docs/tools/wpa_supplicant), using the Add Network button to add as many networks as required.
-3. Click **Generate** to view the resulting file. 
-4. Save this file to the boot partition of Pip's MicroSD card.
-5. Safely eject this card, re-insert into Pip and boot up Pip.
-6. Once booted, hold the **MIDDLE BUTTON** and select the **Reboot** option.
-7. Pip will reboot and be assigned an IP address, which will appear in the top left corner of the screen
+## What is a GPIO?
 
+GPIO is short for General-Purpose Input/Output and these pins can be set to either input or output signals to control a range of electronic accessories.
+
+The header provides 17 Pins that can be configured as inputs and outputs. By default they are all configured as inputs and can be controlled from programs you write in Python or other languages.
+
+{{< figure src="GPIO2.png" >}}
+
+{{< hint danger >}}
+Do not start connecting wires and sensors to these pins without properly understanding how they work. A short circuit or wiring mistake can permanently damage affected pins.
 {{< /hint >}}
 
 
+---
 
-## Method 2 - Make your own file
+## Flashing an LED
 
-You can also make your own **wpa_supplicant.conf** file using any text editor. Copy the code below into a new file and save it as **wpa_supplicant.conf**. Copy this file to the boot partition of Pip's MicroSD card using the procedure outlined above.
-
-
-	country=us
-	update_config=1
-	ctrl_interface=/var/run/wpa_supplicant
-
-	network={
- 	   scan_ssid=1
- 	  ssid="WIFINAME"
- 	 psk="PASSWORD"
-	}
-	
-	network={
- 	   scan_ssid=1
- 	  ssid="WIFINAME2"
- 	 psk="PASSWORD2"
-	}
+Need a basic example of how to flash an LED here

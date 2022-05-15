@@ -4,50 +4,36 @@ weight: 5
 bookToc: false
 ---
 
-# Configuring Pip's WiFi settings
+# Capacitive Touch Panel
 
 ---
 
-## Manual Configuration
+## Introduction
 
-We are in the process of working on a **SETTINGS** app that will allow you to configure Pip's WiFi using the touchscreen. This will be part of a PipOS update. 
+{{< figure src="captouch.png" >}}
 
-In the meantime, the WiFi settings must be configured manually, using either of the methods below.
-
-## Method 1 - Automatic file generator
-
-Pip's Wifi configuration is stored in a file called **wpa_supplicant.conf**, which can be automatically generated using our [wpa_supplicant.conf Generator](/docs/tools/wpa_supplicant).
-
-{{< hint info >}}
-1. Safely remove Pip's MicroSD card and insert it into your computer/laptop using a suitable adapter.
-2. Enter your network name/password in [wpa_supplicant.conf Generator](/docs/tools/wpa_supplicant), using the Add Network button to add as many networks as required.
-3. Click **Generate** to view the resulting file. 
-4. Save this file to the boot partition of Pip's MicroSD card.
-5. Safely eject this card, re-insert into Pip and boot up Pip.
-6. Once booted, hold the **MIDDLE BUTTON** and select the **Reboot** option.
-7. Pip will reboot and be assigned an IP address, which will appear in the top left corner of the screen
-
-{{< /hint >}}
+The capacitive touch panel connects to Pip via the USB connector and allows you to connect the world to Pip. You can touch the capacitive touch pads directly with your fingers, but it's more fun to connect the pads to other conducting objects using the included leads. 
 
 
+---
 
-## Method 2 - Make your own file
+## Conductors
+Conducting objects are defined as the materials or substances that allow electricity to flow through them. The best conductors are metals, however any water containing object can conduct electricity (e.g. fruits and vegetables, the human body and more). Some examples are shown below.
 
-You can also make your own **wpa_supplicant.conf** file using any text editor. Copy the code below into a new file and save it as **wpa_supplicant.conf**. Copy this file to the boot partition of Pip's MicroSD card using the procedure outlined above.
+{{< figure src="conductors.png" >}}
 
+---
 
-	country=us
-	update_config=1
-	ctrl_interface=/var/run/wpa_supplicant
+## Modes
 
-	network={
- 	   scan_ssid=1
- 	  ssid="WIFINAME"
- 	 psk="PASSWORD"
-	}
-	
-	network={
- 	   scan_ssid=1
- 	  ssid="WIFINAME2"
- 	 psk="PASSWORD2"
-	}
+THe capacitive touch panel has 5 selectable modes, which are summarised below:
+
+SERIAL
+
+NUMBER
+
+CURSOR
+
+MIDI
+
+GAMEPAD

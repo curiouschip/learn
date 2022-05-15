@@ -19,6 +19,8 @@ RetroPie allows you to turn Pip into a retro-gaming machine. Play all the old ar
 Without a few tweaks, the stock RetroPie image won't run on Pip. You can download the Pip friendly version of RetroPie below.
 
  **[Download RetroPie for Pip](https://pip-releases.fra1.digitaloceanspaces.com/retropie/retropie-pip_retropie-4.7.1_kernel-5.4.83-gcc-8.3.0.img.zip)**. 
+ 
+ Further information on RetroPie can be found on the official [RetroPie website](https://retropie.org.uk/).
 
  ---
  
