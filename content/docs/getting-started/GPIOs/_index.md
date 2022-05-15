@@ -22,7 +22,7 @@ It is Raspberry Pi Compatible, meaning that the majority of Raspberry Pi HATs ca
 
 GPIO is short for General-Purpose Input/Output and these pins can be set to either input or output signals to control a range of electronic accessories.
 
-The header provides 17 Pins that can be configured as inputs and outputs. By default they are all configured as inputs and can be controlled from programs you write in Python or other languages.
+The header provides pins that can be configured as inputs and outputs. By default they are all configured as inputs and can be controlled from programs you write in Python or other languages.
 
 {{< figure src="GPIO2.png" >}}
 
