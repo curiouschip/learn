@@ -30,9 +30,33 @@ The header provides pins that can be configured as inputs and outputs. By defaul
 Do not connect wires and sensors to these pins without properly understanding how they work. A short circuit or wiring mistake can permanently damage the pins.
 {{< /hint >}}
 
-
 ---
 
 ## Flashing an LED
 
-Need a basic example of how to flash an LED here
+Here is some example code that will flash an LED connected to GPIO 2. To run it, create a new project using
+the "PHP Web App" template, paste this code into `index.php`, and run.
+
+```html
+<html>
+  <head>
+    <script src='/pip/pipkit.js'></script>
+    <script>
+      const gpio = 2;
+      var on = false;
+
+      function init() {
+        pip.gpio.setPinFunction(gpio, pip.PIN_FUNC_GPIO);
+        pip.gpio.setPinMode(gpio, pip.PIN_MODE_OUTPUT);
+        setInterval(function() {
+      	  on = !on;
+          pip.gpio.digitalWrite(gpio, on);
+      	}, 1000);
+      }
+	</script>
+  </head>
+  <body onload='init()'>
+     <h1>LED flash test</h1>
+  </body>
+</html>
+```
