@@ -14,7 +14,6 @@ bookToc: false
 
 The capacitive touch panel connects to Pip via the USB connector and allows you to connect the world to Pip. You can touch the capacitive touch pads directly with your fingers, but it's more fun to connect the pads to other conducting objects using the included leads. 
 
-
 ---
 
 ## Conductors
@@ -26,14 +25,12 @@ Conducting objects are defined as the materials or substances that allow electri
 
 ## Modes
 
-The capacitive touch panel has 5 selectable modes, which are summarised below:
+The capacitive touch panel has 5 selectable modes:
 
-SERIAL
+  - serial - touches and slider interactions are reported via the serial port
+  - numeric - the panel acts as a keyboard with each pad representing a different number (slider is unused in this mode)
+  - cursor - the panel acts as a keyboard with each pad representing either cursor keys or an action key (slider is unused in this mode)
+  - MIDI - touches and slider interactions are reported as MIDI note and pitch-change events
+  - gamepad - the panel emulates a 3-axis, 4-button gamepad
 
-NUMBER
-
-CURSOR
-
-MIDI
-
-GAMEPAD
+For more information see [Using Cap-touch board](/docs/reference/using-cap-touch-board/).
