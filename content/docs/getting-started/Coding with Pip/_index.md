@@ -1,6 +1,6 @@
 ---
 title: Coding with Pip
-weight: 7
+weight: 6
 bookToc: false
 ---
 

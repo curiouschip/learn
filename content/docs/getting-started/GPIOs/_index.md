@@ -1,6 +1,6 @@
 ---
 title: GPIOs
-weight: 5
+weight: 7
 bookToc: false
 ---
 
@@ -34,7 +34,13 @@ Do not connect wires and sensors to these pins without properly understanding ho
 
 ## Flashing an LED
 
-Here is some example code that will flash an LED connected to GPIO 2. To run it, create a new project using
+This short exmple will show you how to make an LED flash using Pip. 
+
+You wil need some basic components for this (outlined below). Wire up the circuit as shown in the image, connecting the long lead of the LED to GPIO 2 (Pin 3) and the resistor to GND (Pin 40)
+
+{{< figure src="Breadboard.png" >}}
+
+Below is some example code that will flash the LED connected to GPIO 2. To run it, create a new project using
 the "PHP Web App" template, paste this code into `index.php`, and run.
 
 ```html
