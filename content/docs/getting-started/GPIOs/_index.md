@@ -1,5 +1,5 @@
 ---
-title: GPIOs
+title: "GPIOs"
 weight: 7
 bookToc: false
 ---

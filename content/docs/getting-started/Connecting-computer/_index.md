@@ -8,15 +8,17 @@ bookToc: false
 
 ---
 
-You can connect to Pip using any device that is equipped with a browser. Although a computer or laptop is preferable, you can also connect using a tablet with a physical keyboard (we don't recommend using a screen based keyboard for coding).
+You can connect to Pip over WiFi using any device that is equipped with a browser. Although a computer or laptop is preferable, you can also connect using a tablet with a physical keyboard (we don't recommend using a screen based keyboard for coding).
+
+{{< figure src="Pipconnect.gif" >}}
+
+In order to connect to Pip, you must have already configured Pip's WiFi following the steps outlined in the [Configuring WiFi](/docs/getting-started/configuring-wifi/) section. If Pip has successfully connected to your network, you should see a WiFi symbol in the top right of the screen and a valid IP address in the top left of the screen.
+
+{{< figure src="browser2.png" >}}
 
 ---
 
 ## Enter Pip's IP address
-
-In order to connect to Pip, you must have already configured Pip's WiFi following the steps outlined in the [Configuring WiFi](/docs/getting-started/configuring-wifi/) section. You should see a WiFi symbol in the top right of the screen and a valid IP address in the top left of the screen.
-
-{{< figure src="browser2.png" >}}
 
 Open a new browser window and enter Pip's IP address, adding the suffix **:8080**
 
