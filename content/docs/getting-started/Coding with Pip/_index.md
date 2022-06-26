@@ -12,7 +12,7 @@ bookToc: false
 
 {{< figure src="editing1.png" >}}
 
-Clicking on the 3 dots beside the app opens up a sub menu, which allows you to customise and edit the app. The options available are described below:
+Once connected to Pip, you cane create new apps or edit existing ones. Clicking on the 3 dots beside the app opens up a sub menu, which allows you to customise and edit the app. The options available are described below:
 
 {{< hint info >}}
 **Run** - This option loads and runs the app on Pip. If Pip is connected to an external monitor, this is how you would load an app as Pip's touchscreen user interface will be unavailable. Any running apps will be shown in the bottom right of the screen.

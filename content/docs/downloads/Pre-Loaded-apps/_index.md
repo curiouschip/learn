@@ -5,4 +5,103 @@ title: "Bundled Apps"
 
 # Bundled Apps
 
-This page is currently under construction and will feature all the apps that are bundled with Pip. 
+---
+
+Pip comes pre-loaded with 9 apps that show the versatility of Pip. If you are new to coding, try and change some of the variables in the code to see how they affect the game or app. 
+
+---
+
+{{< figure src="chasm.png" >}}
+
+---
+
+The aim of this game is to get the ball from one end of the bridge to the other, without falling into the water. This game uses Pip's accelerometer and you control the horizontal direction of the ball by tilting Pip left or right, and control the vertical direction by tilting Pip forward or backwards. 
+
+{{< figure src="chasm2.png" >}}
+
+---
+
+{{< figure src="drum.png" >}}
+
+---
+
+Drum is a memory game, similar to Simon Says, where you must remember the Drum beat which gets longer with each turn. You can either tap out the sequence on the screen, or use the capacitive touch board to play this game. In the 'Projects' section, we have instructions for making your own touch-enabled paper drumkit that you can use for this game.
+
+{{< figure src="drum2.png" >}}
+
+{{< hint warning >}}
+If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+{{< /hint >}}
+
+---
+
+{{< figure src="LED.png" >}}
+
+---
+
+This is a combined tutorial and app. The tutorial gives you an overview of how additive colours work to give you an idea of how the 3 primary colours can be combined to create over 16.7 million colours.
+
+The App allows you to select Pip's LEDs individually, change their colour and apply some cool effects.
+
+{{< figure src="LED2.png" >}}
+
+{{< hint warning >}}
+**LED SELECT** - Click on the hexagons on the screen to select the corresponding LED. The active LED has a black line above the hexagon.
+
+**COLOUR SLIDERS** - There are 3 colour sliders; RED, GREEN and BLUE. Tap on the + or - icons to adjust the selected brightness of each primary colour in single digit increments, or tap anywhere along the bar to select a brightness level.
+
+**SELECTED COLOUR** - This box shows the RGB colour you have created.
+
+**ACTION BUTTONS** - Click on any of these to apply the desired effect to the LEDs:
+- Set all lights to active colour - this sets ALL LEDs to the same colour as the highlighted hexagon.
+- Clear - This turns off all the LEDs.
+- Bounce - This makes the LEDs cycle to the left, then back again to the right.
+- Loop - Make all LEDs chase each other from left to right.
+- Stop - This action stops the LED animations.
+
+{{< /hint >}}
+
+---
+
+{{< figure src="match.png" >}}
+
+---
+
+Match is a timed game that uses the capacitive touch board. The included example uses 8 coins used in the British currency system. They are attached to the capacitive touch pads in increasing values and the player has to touch the correct coin that corresponds to the value, text or image shown on the screen. 
+
+This game is a great way to familiarise young children with money.
+
+{{< figure src="match2.png" >}}
+
+{{< hint warning >}}
+If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+
+Users can easily edit the code to customise this game for the currency used in their own country.
+{{< /hint >}}
+
+{{< hint danger >}}
+Make sure the coins are not touching each other when setting this up.
+{{< /hint >}}
+
+---
+
+{{< figure src="money.png" >}}
+
+---
+
+Money game is a more advanced version of Match, where the player has to use mental maths in order to correctly answer the questions. Players are asked a series of questions and they must tap the right number of coins to get the correct answer.
+
+{{< figure src="money2.png" >}}
+
+{{< hint warning >}}
+If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+
+Users can easily edit the code to customise this game for the currency used in their own country.
+{{< /hint >}}
+
+{{< hint danger >}}
+Make sure the coins are not touching each other when setting this up.
+{{< /hint >}}
+
+
+
