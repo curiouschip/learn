@@ -162,7 +162,7 @@ If using the capacitive touch board, you need to press the **MODE** button and s
 
 ---
 
-A retro classic, this version of Space Invaders is written in Lua Love. You can use the controllers to play the game, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use the Capacitive Touch panel to play the game.
+A retro classic, this version of Space Invaders is written in LÖVE. You can use the controllers to play the game, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use the Capacitive Touch panel to play the game.
 
 {{< figure src="Space2.png" >}}
 
