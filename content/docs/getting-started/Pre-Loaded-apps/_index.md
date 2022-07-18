@@ -30,7 +30,7 @@ Drum is a memory game, similar to Simon Says, where you must remember the Drum b
 {{< figure src="drum2.png" >}}
 
 {{< hint warning >}}
-If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
 {{< /hint >}}
 
 ---
@@ -74,7 +74,7 @@ This game is a great way to familiarise young children with money.
 {{< figure src="match2.png" >}}
 
 {{< hint warning >}}
-If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
 
 Users can easily edit the code to customise this game for the currency used in their own country.
 {{< /hint >}}
@@ -94,7 +94,7 @@ Money game is a more advanced version of Match, where the player has to use ment
 {{< figure src="money2.png" >}}
 
 {{< hint warning >}}
-If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
 
 Users can easily edit the code to customise this game for the currency used in their own country.
 {{< /hint >}}
@@ -114,7 +114,7 @@ The Piano app is a free play on-screen piano. You can either tap the keys on the
 {{< figure src="piano2.png" >}}
 
 {{< hint warning >}}
-If using the capacitive touch board, you need to out the board into ***NUMBER*** mode.
+If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
 {{< /hint >}}
 
 ---
@@ -126,4 +126,48 @@ If using the capacitive touch board, you need to out the board into ***NUMBER***
 The RGB filter app uses Pip's built-in camera. You can code your own filters and use the sliders to adjust the on-screen image.
 
 {{< figure src="RGB2.png" >}}
+
+---
+
+{{< figure src="SimonSays1.png" >}}
+
+---
+
+The Simon Says app is Pip's take on the classic game where you are shown a sequence of items and have to recall them in the correct order. You can either tap the displayed sequence on the screen, or use the capacitive touch board. 
+
+{{< figure src="SimonSays2.png" >}}
+
+The game is pre-loaded with some recommended objects, but you can modify the images and attach any conductive item you wish. Default objects are:
+
+- Apple
+- Banana
+- Aluminium can
+- Coin
+- Aluminium foil
+- Metal key
+- Metal spoon
+- Glass of water
+
+{{< hint danger >}}
+As some of these objects contain water, you should thoroughly clean the top of the connecting leads after use in order to prevent corrosion. Alternatively, you can attach a paper clip to the leads and insert the paper clip into fruits, vegetables and liquids.
+{{< /hint >}}
+
+{{< hint warning >}}
+If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
+{{< /hint >}}
+
+---
+
+{{< figure src="Space1.png" >}}
+
+---
+
+A retro classic, this version of Space Invaders is written in Lua Love. You can use the controllers to play the gam, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use the Capacitive Touch panel to play the game.
+
+{{< figure src="Space2.png" >}}
+
+{{< hint warning >}}
+If using the capacitive touch board, you need to press the **MODE** button and select **CURSOR** mode. Attach leads to pad 3 and 4 for directional control and pad 5 to fire. These leads can then be connected to a home-made controller, or and conductive material.
+{{< /hint >}}
+
 
