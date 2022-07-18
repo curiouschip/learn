@@ -149,7 +149,7 @@ The game is pre-loaded with some recommended objects, but you can modify the ima
 - Glass of water
 
 {{< hint danger >}}
-As some of these objects contain water, you should thoroughly clean the top of the connecting leads after use in order to prevent corrosion. Alternatively, you can attach a paper clip to the leads and insert the paper clip into fruits, vegetables and liquids.
+As some of these objects contain water, you should thoroughly clean the clips of the connecting leads after use in order to prevent corrosion. Alternatively, you can attach a paper clip to the leads and insert the paper clip into fruits, vegetables and liquids.
 {{< /hint >}}
 
 {{< hint warning >}}
@@ -162,12 +162,12 @@ If using the capacitive touch board, you need to press the **MODE** button and s
 
 ---
 
-A retro classic, this version of Space Invaders is written in Lua Love. You can use the controllers to play the gam, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use the Capacitive Touch panel to play the game.
+A retro classic, this version of Space Invaders is written in Lua Love. You can use the controllers to play the game, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use the Capacitive Touch panel to play the game.
 
 {{< figure src="Space2.png" >}}
 
 {{< hint warning >}}
-If using the capacitive touch board, you need to press the **MODE** button and select **CURSOR** mode. Attach leads to pad 3 and 4 for directional control and pad 5 to fire. These leads can then be connected to a home-made controller, or and conductive material.
+If using the capacitive touch board, you need to press the **MODE** button and select **CURSOR** mode. Attach leads to pad 3 and 4 for directional control and pad 5 to fire. These leads can then be connected to a home-made controller, or any conductive material.
 {{< /hint >}}
 
 
