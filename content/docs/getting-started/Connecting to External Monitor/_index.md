@@ -16,7 +16,7 @@ Pip can connect to an external monitor or TV through the built-in HDMI port. To 
 
 You can only have one screen active whilst using Pip. By default, this is the built-in LCD and all the images supplied (PipOS and RetroPie) have been set-up by default to work with the LCD.
 
-To get Pip working with an external monitor, simply replace the **confg.txt** file with one that has been customised for HDMI. Download the required file below, then follow the instructions below to replace the config.txt file.
+To get Pip working with an external monitor, simply replace the **config.txt** file with one that has been customised for HDMI. Download the required file below, then follow the instructions below to replace the config.txt file.
 
 [**Download HDMI config**](HDMI.zip)
 
