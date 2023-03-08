@@ -1,8 +1,12 @@
 ---
-weight: 10
+weight: 12
 title: Paper Piano
 ---
 
 # How to make a Paper Piano
 
-This page is currently under construction and feature projects for your capacitive touch panel.
+Watch the video below to learn how to make a paper piano. You can download a template of the paper piano below.
+
+[**Piano Template**](pip-piano.zip)
+
+{{< youtube 49G0AjtPYSk >}}
