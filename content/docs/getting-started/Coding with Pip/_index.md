@@ -12,7 +12,7 @@ bookToc: false
 
 {{< figure src="editing1.png" >}}
 
-Once connected to Pip, you cane create new apps or edit existing ones. Clicking on the 3 dots beside the app opens up a sub menu, which allows you to customise and edit the app. The options available are described below:
+Once connected to Pip, you can create new apps or edit existing ones. Clicking on the 3 dots beside the app opens up a sub menu, which allows you to customise and edit the app. The options available are described below:
 
 {{< hint info >}}
 **Run** - This option loads and runs the app on Pip. If Pip is connected to an external monitor, this is how you would load an app as Pip's touchscreen user interface will be unavailable. Any running apps will be shown in the bottom right of the screen.
@@ -44,13 +44,16 @@ We are going to make some changes to the **Space Invaders** game, which is writt
 
 We are going to give this game a retro look by changing the background and the sprites. You can use your own sprites, or download the ones used in this example by [**clicking here**](SpaceInvaders.zip). 
 
-The filenames have been kept the same to make this example easier to follow. 
+{{< hint danger >}}
+The filenames of the assets have been kept the same in order to make this example work. 
+{{< /hint >}}
+
 
 {{< hint info >}}
 1. We are going to edit the **main.lua** file, so click on this to open it in a new tab
 2. Add a new folder to the **Root Directory** and name it **newassets**
 3. Drag and drop the downloaded assets into this newly created folder
-4. All we need to do is point the source of the graphics to the new directory by renaming the **assets** folder to **newassets** on lines 5, 6, 9 and 10 of the code
+4. All we need to do is reference to the new folder on **line 7**. Change the **assetDir = "assets"** to **assetDir = "newassets"**  on lines 7 of the code
 5. Once complete, click on **Save** in the top left corner, then on **Run** to see the results on Pip
 {{< /hint >}}
 
