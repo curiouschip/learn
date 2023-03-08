@@ -25,7 +25,7 @@ The aim of this game is to get the ball from one end of the bridge to the other,
 
 ---
 
-Drum is a memory game, similar to Simon Says, where you must remember the Drum beat which gets longer with each turn. You can either tap out the sequence on the screen, or use the capacitive touch board to play this game. In the 'Projects' section, we have instructions for making your own touch-enabled paper drumkit that you can use for this game.
+Drum Sequenceis a memory game, similar to Simon Says, where you must remember the Drum beat which gets longer with each turn. You can either tap out the sequence on the screen, or use the capacitive touch board to play this game. In the 'Projects' section, we have instructions for making your own touch-enabled paper drumkit that you can use for this game.
 
 {{< hint warning >}}
 If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
@@ -70,16 +70,13 @@ The App allows you to select Pip's LEDs individually, change their colour and ap
 
 Match is a timed game that uses the capacitive touch board. The included example uses 8 coins used in the British currency system. They are attached to the capacitive touch pads in increasing values and the player has to touch the correct coin that corresponds to the value, text or image shown on the screen. 
 
-This game is a great way to familiarise young children with money.
-
-{{< figure src="match2.png" >}}
+This game is a great way to familiarise young children with money and users can easily edit the code to customise this game for the currency used in their own country.
 
 {{< hint warning >}}
-If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
-
-Users can easily edit the code to customise this game for the currency used in their own country.
+This app requires PipTouch (capacitive touch board). Before launching the app, make sure PipTouch is connected and set-up as needed and press the **MODE** button to put PipTouch into  **NUMBER** mode.
 {{< /hint >}}
 
+{{< figure src="match2.png" >}}
 {{< hint danger >}}
 Make sure the coins are not touching each other when setting this up.
 {{< /hint >}}
@@ -90,15 +87,12 @@ Make sure the coins are not touching each other when setting this up.
 
 ---
 
-Money game is a more advanced version of Match, where the player has to use mental maths in order to correctly answer the questions. Players are asked a series of questions and they must tap the right number of coins to get the correct answer.
+Money game is a more advanced version of Match, where the player has to use mental maths in order to correctly answer the questions. Players are asked a series of questions and they must tap the right number of coins to get the correct answer and users can easily edit the code to customise this game for the currency used in their own country.
+{{< hint warning >}}
+This app requires PipTouch (capacitive touch board). Before launching the app, make sure PipTouch is connected and set-up as needed and press the **MODE** button to put PipTouch into  **NUMBER** mode.
+{{< /hint >}}
 
 {{< figure src="money2.png" >}}
-
-{{< hint warning >}}
-If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
-
-Users can easily edit the code to customise this game for the currency used in their own country.
-{{< /hint >}}
 
 {{< hint danger >}}
 Make sure the coins are not touching each other when setting this up.
@@ -111,12 +105,11 @@ Make sure the coins are not touching each other when setting this up.
 ---
 
 The Piano app is a free play on-screen piano. You can either tap the keys on the screen to play a tune, or use the capacitive touch board. In the 'Projects' section, we have instructions for making your own touch-enabled paper piano that you can use for this app.
+{{< hint warning >}}
+If using PipTouch, you need to press the **MODE** button and select the **NUMBER** mode.
+{{< /hint >}}
 
 {{< figure src="piano2.png" >}}
-
-{{< hint warning >}}
-If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
-{{< /hint >}}
 
 ---
 
@@ -134,7 +127,10 @@ The RGB filter app uses Pip's built-in camera. You can code your own filters and
 
 ---
 
-The Simon Says app is Pip's take on the classic game where you are shown a sequence of items and have to recall them in the correct order. You can either tap the displayed sequence on the screen, or use the capacitive touch board. 
+The Simon Says app is Pip's take on the classic game where you are shown a sequence of items and have to recall them in the correct order. You can either tap the displayed sequence on the screen, or use PipTouch.
+{{< hint warning >}}
+If using PipTouch, you need to press the **MODE** button and select the **NUMBER** mode.
+{{< /hint >}}
 
 {{< figure src="SimonSays2.png" >}}
 
@@ -153,22 +149,18 @@ The game is pre-loaded with some recommended objects, but you can modify the ima
 As some of these objects contain water, you should thoroughly clean the clips of the connecting leads after use in order to prevent corrosion. Alternatively, you can attach a paper clip to the leads and insert the paper clip into fruits, vegetables and liquids.
 {{< /hint >}}
 
-{{< hint warning >}}
-If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
-{{< /hint >}}
-
 ---
 
 {{< figure src="Space1.png" >}}
 
 ---
 
-A retro classic, this version of Space Invaders is written in LÖVE. You can use the controllers to play the game, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use the Capacitive Touch panel to play the game.
+A retro classic, this version of Space Invaders is written in LÖVE. You can use the controllers to play the game, using the **LEFT** and **RIGHT** buttons on the left controller to move and the **Y** button on the right controller to fire. You can also use PipTouchg to play the game.
+{{< hint warning >}}
+If using PipTouch, you need to press the **MODE** button and select the **CURSOR** mode.
+{{< /hint >}}
 
 {{< figure src="Space2.png" >}}
 
-{{< hint warning >}}
-If using the capacitive touch board, you need to press the **MODE** button and select **CURSOR** mode. Attach leads to pad 3 and 4 for directional control and pad 5 to fire. These leads can then be connected to a home-made controller, or any conductive material.
-{{< /hint >}}
 
 

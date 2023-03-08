@@ -1,10 +1,10 @@
 ---
-title: Capacitive Touch Panel
+title: PipTouch
 weight: 4
 bookToc: false
 ---
 
-# Capacitive Touch Panel
+# PipTouch
 
 ---
 
@@ -12,7 +12,7 @@ bookToc: false
 
 {{< figure src="captouch.png" >}}
 
-The capacitive touch panel connects to Pip via the USB connector and allows you to connect the world to Pip. You can touch the capacitive touch pads directly with your fingers, but it's more fun to connect the pads to other conducting objects using the included leads. 
+PipTouch connects to Pip via the USB connector and allows you to connect the world to Pip. You can touch the capacitive touch pads directly with your fingers, but it's more fun to connect the pads to other conducting objects using the included leads. 
 
 ---
 
@@ -25,7 +25,7 @@ Conducting objects are defined as the materials or substances that allow electri
 
 ## Modes
 
-The capacitive touch panel has 5 selectable modes:
+PipTouch has 5 selectable modes:
 
   - serial - touches and slider interactions are reported via the serial port
   - numeric - the panel acts as a keyboard with each pad representing a different number (slider is unused in this mode)
