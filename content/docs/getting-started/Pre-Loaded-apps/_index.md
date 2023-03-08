@@ -27,11 +27,12 @@ The aim of this game is to get the ball from one end of the bridge to the other,
 
 Drum is a memory game, similar to Simon Says, where you must remember the Drum beat which gets longer with each turn. You can either tap out the sequence on the screen, or use the capacitive touch board to play this game. In the 'Projects' section, we have instructions for making your own touch-enabled paper drumkit that you can use for this game.
 
-{{< figure src="drum2.png" >}}
-
 {{< hint warning >}}
 If using the capacitive touch board, you need to press the **MODE** button and select **NUMBER** mode.
 {{< /hint >}}
+
+{{< figure src="drum2.png" >}}
+
 
 ---
 
